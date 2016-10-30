@@ -1,1 +1,7 @@
-aaaaaaaaaa
+git init   создать репу
+git clone  скачать репу
+
+git add . добавить все файлы кроме записаных в .gitignore
+git status ото
+git commit -m 'first commit'
+git show
