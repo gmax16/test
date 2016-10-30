@@ -1,0 +1,25 @@
+git init   создать репу
+git clone  скачать репу
+
+git add . добавить все файлы кроме записаных в .gitignore
+git status отобразить незакоменые изменения
+git commit -m 'first commit' создать чекпоинт
+git show показать последний чекпоинт
+
+git log отобразить все чекпоинты
+git checkout 1111 перейти к чекпоинту или ветке
+
+git branch aaa создать ветку
+git branch -v список веток -коммов
+git branch -D aaa удалить ветку
+git merge aaa слияние веток
+
+git tag ффф 111 добавить тег ффф к коммиту
+git tag -d ффф удалить тег
+
+git remote add ффф добавляет сетевой репозиторий
+git push куда ветка заливает ветку на сервер
+git fetch куда ветка скачитевает ветку с сервера
+git remote rm ффф удалить репу 
+-------------------
+https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/settings
